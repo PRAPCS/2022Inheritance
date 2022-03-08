@@ -3,8 +3,9 @@ public class dogs extends pets{
 private int legs;
 
   public dogs(String n, int l){
-    super(n);
+   super(n);
     legs = l;
+     
   }
 
   public int getLegs(){
@@ -16,7 +17,7 @@ private int legs;
  // }
 
   public String toString(){
-    return super.toString()+ "It has "+legs+" legs.";
+    return super.toString()+ " It has "+legs+" legs.";
   }
 
 

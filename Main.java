@@ -11,5 +11,11 @@ class Main {
     puppy pup = new puppy("Doge", 4, 2);
     System.out.println(pup);
     System.out.println(pup.getName());
+
+    snake s = new snake("Kaa","Red");
+    System.out.println(s.getColor());
+    System.out.println(s);
+    System.out.println(s.getName());
+    
   }
 }
